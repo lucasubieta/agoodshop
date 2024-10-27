@@ -25,6 +25,7 @@ h1{
     width: 70vw;
     padding-right: 10%;
     text-align: center;
+    min-width: 620px;
 }
 
 table {
@@ -38,11 +39,32 @@ table {
 th{
     font-size: larger;
     padding-bottom: 1%;
+
+}
+
+td{
+    padding: 5px;
+    position:static;
+    width: 10em;
 }
 
 .boton{
 width: 2em;
 height: 2em;
+}
+
+.contenedorCantidad{
+    display: inline;
+}
+.contenedorCantidad td{ 
+    width: 2em;
+}
+
+.inputCantidadProducto{
+    width: 3em;
+    text-align: center;
+    border-style:double;
+    background-color:transparent;
 }
 
 
