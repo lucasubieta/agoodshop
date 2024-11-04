@@ -81,9 +81,10 @@ height: 2em;
         padding: 1%;
         border-bottom: 2px solid rgb(128, 128, 128);
         font-weight: bold;
+        width: 100%;
     }
     
-    #idContenedorTotal span{
+    #idContenedorListaTotal {
         display: flex;
         justify-content: right;
         width: 90%;
@@ -92,3 +93,8 @@ height: 2em;
     }
 
 
+#Total{
+    font-weight: bolder;
+    border-top: 2px solid rgb(128, 128, 128);
+
+}
